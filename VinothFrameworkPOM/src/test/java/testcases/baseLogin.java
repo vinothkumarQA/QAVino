@@ -34,7 +34,7 @@ public class baseLogin {
 	{
 		driver.findElement(By.id("user-name")).sendKeys("Hello");	
 		driver.findElement(By.id("password")).sendKeys("Welcome");
-		
+		System.out.println("hi");		
 		
 	}
 
